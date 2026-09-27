@@ -1,0 +1,120 @@
+[{"stream_name":"stderr","time":7.045255181,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.04535775,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.045365025,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.045369644,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.620314344,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.620356705,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.620362863,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.620366658,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.77149342,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.4/35.4 MB 55.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":14.973711524,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.4/35.4 MB 55.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.736258907,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.7/60.7 MB 32.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.850683082,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 113.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.938189042,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.7/60.7 MB 32.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.938255716,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 113.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":23.832184029,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":23.832222348,"data":"dask-cuda 26.2.0 requires cuda-core==0.3.*, but you have cuda-core 1.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.832230139,"data":"dask-cuda 26.2.0 requires numba-cuda\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.832236965,"data":"distributed-ucxx-cu12 0.48.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.832242743,"data":"cuml-cu12 26.2.0 requires numba\u003c0.62.0,\u003e=0.60.0, but you have numba 0.65.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.832247785,"data":"cuml-cu12 26.2.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.832252334,"data":"ucxx-cu12 0.48.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.83225718,"data":"cudf-cu12 26.2.1 requires numba\u003c0.62.0,\u003e=0.60.0, but you have numba 0.65.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.832345939,"data":"cudf-cu12 26.2.1 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.2, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034613941,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":24.034650208,"data":"dask-cuda 26.2.0 requires cuda-core==0.3.*, but you have cuda-core 1.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034657086,"data":"dask-cuda 26.2.0 requires numba-cuda\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034662835,"data":"distributed-ucxx-cu12 0.48.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034667983,"data":"cuml-cu12 26.2.0 requires numba\u003c0.62.0,\u003e=0.60.0, but you have numba 0.65.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034673383,"data":"cuml-cu12 26.2.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034678811,"data":"ucxx-cu12 0.48.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.03468333,"data":"cudf-cu12 26.2.1 requires numba\u003c0.62.0,\u003e=0.60.0, but you have numba 0.65.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034687536,"data":"cudf-cu12 26.2.1 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.2, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034692644,"data":"\n"}
+,{"stream_name":"stderr","time":24.034697179,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":24.034702261,"data":"dask-cuda 26.2.0 requires cuda-core==0.3.*, but you have cuda-core 1.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034706641,"data":"dask-cuda 26.2.0 requires numba-cuda\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034710641,"data":"distributed-ucxx-cu12 0.48.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.03471492,"data":"cuml-cu12 26.2.0 requires numba\u003c0.62.0,\u003e=0.60.0, but you have numba 0.65.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.03471957,"data":"cuml-cu12 26.2.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034723767,"data":"ucxx-cu12 0.48.0 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034728007,"data":"cudf-cu12 26.2.1 requires numba\u003c0.62.0,\u003e=0.60.0, but you have numba 0.65.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.034733887,"data":"cudf-cu12 26.2.1 requires numba-cuda[cu12]\u003c0.23.0,\u003e=0.22.2, but you have numba-cuda 0.30.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":33.43160545,"data":"deps ok\n"}
+,{"stream_name":"stdout","time":33.459231514,"data":"MLLM core loaded\n"}
+,{"stream_name":"stdout","time":58.050435157,"data":"Chargement des données…\n"}
+,{"stream_name":"stdout","time":98.955810544,"data":"frames 1248 dist [587, 605, 56]\n"}
+,{"stream_name":"stdout","time":98.95585409,"data":"GPU Tesla T4 (7, 5)\n"}
+,{"stream_name":"stderr","time":98.957263671,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":98.95729415,"data":"\n"}
+,{"stream_name":"stderr","time":98.957299848,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":247.156095558,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":247.156163753,"data":"\n"}
+,{"stream_name":"stderr","time":247.156171665,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":250.569539286,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":250.569592618,"data":"\n"}
+,{"stream_name":"stderr","time":250.569598262,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":664.303651049,"data":"pli 0: zéro/few faits (256 val)\n"}
+,{"stream_name":"stdout","time":1083.727985207,"data":"pli 1: zéro/few faits (256 val)\n"}
+,{"stream_name":"stdout","time":1502.449806565,"data":"pli 2: zéro/few faits (256 val)\n"}
+,{"stream_name":"stdout","time":1920.845514755,"data":"pli 3: zéro/few faits (256 val)\n"}
+,{"stream_name":"stdout","time":2287.199576602,"data":"pli 4: zéro/few faits (224 val)\n"}
+,{"stream_name":"stderr","time":2335.814025104,"data":"/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py:1181: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":2335.814090324,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":2335.814098382,"data":"`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...\n"}
+,{"stream_name":"stderr","time":2335.814103514,"data":"\n"}
+,{"stream_name":"stderr","time":2335.814107854,"data":"/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py:1181: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":2335.814113255,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":2335.81411721,"data":"`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...\n"}
+,{"stream_name":"stderr","time":2338.479456562,"data":"/usr/local/lib/python3.12/dist-packages/torch/autograd/graph.py:865: UserWarning: The AccumulateGrad node's stream does not match the stream of the node that produced the incoming gradient. This may incur unnecessary synchronization and break CUDA graph capture if the AccumulateGrad node's stream is the default stream. This mismatch is caused by an AccumulateGrad node created prior to the current iteration being kept alive. This can happen if the autograd graph is still being kept alive by tensors such as the loss, or if you are using DDP, which will stash a reference to the node. To resolve the mismatch, delete all references to the autograd graph or ensure that DDP initialization is performed under the same stream as subsequent forwards. If the mismatch is intentional, you can use torch.autograd.graph.set_warn_on_accumulate_grad_stream_mismatch(False) to suppress this warning. (Triggered internally at /pytorch/torch/csrc/autograd/input_buffer.cpp:240.)\n"}
+,{"stream_name":"stderr","time":2338.479496767,"data":"  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass\n"}
+,{"stream_name":"stderr","time":2338.479503239,"data":"\n"}
+,{"stream_name":"stderr","time":2338.47950734,"data":"/usr/local/lib/python3.12/dist-packages/torch/autograd/graph.py:865: UserWarning: The AccumulateGrad node's stream does not match the stream of the node that produced the incoming gradient. This may incur unnecessary synchronization and break CUDA graph capture if the AccumulateGrad node's stream is the default stream. This mismatch is caused by an AccumulateGrad node created prior to the current iteration being kept alive. This can happen if the autograd graph is still being kept alive by tensors such as the loss, or if you are using DDP, which will stash a reference to the node. To resolve the mismatch, delete all references to the autograd graph or ensure that DDP initialization is performed under the same stream as subsequent forwards. If the mismatch is intentional, you can use torch.autograd.graph.set_warn_on_accumulate_grad_stream_mismatch(False) to suppress this warning. (Triggered internally at /pytorch/torch/csrc/autograd/input_buffer.cpp:240.)\n"}
+,{"stream_name":"stderr","time":2338.479514974,"data":"  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass\n"}
+,{"stream_name":"stdout","time":5113.281280159,"data":"LoRA pli 0 fait\n"}
+,{"stream_name":"stdout","time":5117.688702259,"data":"LoRA ignoré: CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 68.81 MiB is free. Including non-PyTorch memory, this process has 14.49 GiB memory in use. Of the all\n"}
+,{"stream_name":"stdout","time":5117.688740918,"data":"{\n"}
+,{"stream_name":"stdout","time":5117.688744981,"data":"  \"zero_shot\": {\n"}
+,{"stream_name":"stdout","time":5117.688748314,"data":"    \"accuracy\": 0.47,\n"}
+,{"stream_name":"stdout","time":5117.688752363,"data":"    \"balanced_accuracy\": 0.333,\n"}
+,{"stream_name":"stdout","time":5117.688770047,"data":"    \"f1_macro\": 0.213,\n"}
+,{"stream_name":"stdout","time":5117.688775459,"data":"    \"precision_macro\": 0.157,\n"}
+,{"stream_name":"stdout","time":5117.688780528,"data":"    \"recall_macro\": 0.333,\n"}
+,{"stream_name":"stdout","time":5117.688785618,"data":"    \"qwk\": 0.0,\n"}
+,{"stream_name":"stdout","time":5117.688790433,"data":"    \"kappa_linear\": 0.0,\n"}
+,{"stream_name":"stdout","time":5117.688795958,"data":"    \"mcc\": 0.0,\n"}
+,{"stream_name":"stdout","time":5117.688800881,"data":"    \"mae\": 0.575\n"}
+,{"stream_name":"stdout","time":5117.688805331,"data":"  },\n"}
+,{"stream_name":"stdout","time":5117.688810323,"data":"  \"few_shot\": {\n"}
+,{"stream_name":"stdout","time":5117.688814842,"data":"    \"accuracy\": 0.469,\n"}
+,{"stream_name":"stdout","time":5117.688832771,"data":"    \"balanced_accuracy\": 0.338,\n"}
+,{"stream_name":"stdout","time":5117.688838221,"data":"    \"f1_macro\": 0.224,\n"}
+,{"stream_name":"stdout","time":5117.688844834,"data":"    \"precision_macro\": 0.204,\n"}
+,{"stream_name":"stdout","time":5117.688847313,"data":"    \"recall_macro\": 0.338,\n"}
+,{"stream_name":"stdout","time":5117.688849602,"data":"    \"qwk\": 0.005,\n"}
+,{"stream_name":"stdout","time":5117.688852089,"data":"    \"kappa_linear\": 0.003,\n"}
+,{"stream_name":"stdout","time":5117.688868422,"data":"    \"mcc\": 0.01,\n"}
+,{"stream_name":"stdout","time":5117.688872534,"data":"    \"mae\": 0.578\n"}
+,{"stream_name":"stdout","time":5117.68887648,"data":"  },\n"}
+,{"stream_name":"stdout","time":5117.688880391,"data":"  \"lora\": {\n"}
+,{"stream_name":"stdout","time":5117.688884352,"data":"    \"accuracy\": 0.438,\n"}
+,{"stream_name":"stdout","time":5117.688888466,"data":"    \"balanced_accuracy\": 0.36,\n"}
+,{"stream_name":"stdout","time":5117.688892054,"data":"    \"f1_macro\": 0.252,\n"}
+,{"stream_name":"stdout","time":5117.688895465,"data":"    \"precision_macro\": 0.429,\n"}
+,{"stream_name":"stdout","time":5117.688898864,"data":"    \"recall_macro\": 0.36,\n"}
+,{"stream_name":"stdout","time":5117.688902212,"data":"    \"qwk\": 0.044,\n"}
+,{"stream_name":"stdout","time":5117.688905586,"data":"    \"kappa_linear\": 0.056,\n"}
+,{"stream_name":"stdout","time":5117.688908923,"data":"    \"mcc\": 0.151,\n"}
+,{"stream_name":"stdout","time":5117.688912283,"data":"    \"mae\": 0.598\n"}
+,{"stream_name":"stdout","time":5117.688915668,"data":"  }\n"}
+,{"stream_name":"stdout","time":5117.688918839,"data":"}\n"}
+,{"stream_name":"stdout","time":5118.004904529,"data":"figure sauvegardée\n"}
+,{"stream_name":"stderr","time":5125.006884782,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5125.00693945,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5125.285489446,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5125.285513874,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5125.954840985,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":5126.290089121,"data":"[NbConvertApp] Writing 232384 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":5128.578070729,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5129.713708927,"data":"[NbConvertApp] Writing 518798 bytes to __results__.html\n"}
+]

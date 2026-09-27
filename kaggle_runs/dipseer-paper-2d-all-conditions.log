@@ -1,0 +1,190 @@
+[{"stream_name":"stderr","time":6.08967636,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.08972771,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":6.937120225,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.937147347,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.937152952,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.937157705,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.523111247,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.523150531,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.523155695,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.523159972,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.098149072,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.9/40.9 MB 47.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.129005928,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 389.2/389.2 kB 27.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.300598734,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.9/40.9 MB 47.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.300625869,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 389.2/389.2 kB 27.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.525620497,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.5/35.5 MB 54.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.727756856,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.5/35.5 MB 54.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.905273113,"data":"GPU: Tesla T4 (cc 7.5) x2\n"}
+,{"stream_name":"stdout","time":47.049214361,"data":"torch 2.10.0+cu128 · bitsandbytes 0.50.0 · peft 0.19.1\n"}
+,{"stream_name":"stdout","time":47.115779548,"data":"[data] using /kaggle/input/datasets/zakariamakhas/dipseer-paper1-slice\n"}
+,{"stream_name":"stdout","time":47.115804722,"data":"[resume] starting fresh\n"}
+,{"stream_name":"stdout","time":47.115810088,"data":"cap=32 · img=224 · few-shot=5/class · epochs=2 · eff.batch=4\n"}
+,{"stream_name":"stdout","time":67.201858985,"data":"Manifest — 1248 frames · 20 students · 40 bundles · 20s | dist [603, 639, 6]\n"}
+,{"stream_name":"stdout","time":67.201886975,"data":"GroupKFold(5) by STUDENT | val sizes [256, 256, 256, 256, 224]\n"}
+,{"stream_name":"stdout","time":67.201892616,"data":"subject-disjointness verified on all folds\n"}
+,{"stream_name":"stderr","time":67.311893518,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":67.311932829,"data":"\n"}
+,{"stream_name":"stderr","time":67.311937749,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":221.312582501,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":221.312633554,"data":"\n"}
+,{"stream_name":"stderr","time":221.31263807,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stdout","time":225.158475451,"data":"fold 0: 14 few-shot demos (5/class), 256 val frames\n"}
+,{"stream_name":"stderr","time":225.184256213,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":225.184287799,"data":"\n"}
+,{"stream_name":"stderr","time":225.184292151,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":389.013465158,"data":"  50/256 (3.28s/frame)\n"}
+,{"stream_name":"stdout","time":557.846698327,"data":"  100/256 (3.33s/frame)\n"}
+,{"stream_name":"stdout","time":726.690506483,"data":"  150/256 (3.34s/frame)\n"}
+,{"stream_name":"stdout","time":895.855287006,"data":"  200/256 (3.35s/frame)\n"}
+,{"stream_name":"stdout","time":1064.440190672,"data":"  250/256 (3.36s/frame)\n"}
+,{"stream_name":"stdout","time":1084.982417182,"data":"  fold 0 done in 14.3 min\n"}
+,{"stream_name":"stdout","time":1085.558759767,"data":"fold 1: 14 few-shot demos (5/class), 256 val frames\n"}
+,{"stream_name":"stdout","time":1254.473446957,"data":"  50/256 (3.38s/frame)\n"}
+,{"stream_name":"stdout","time":1422.630095096,"data":"  100/256 (3.37s/frame)\n"}
+,{"stream_name":"stdout","time":1591.309493305,"data":"  150/256 (3.37s/frame)\n"}
+,{"stream_name":"stdout","time":1759.880057186,"data":"  200/256 (3.37s/frame)\n"}
+,{"stream_name":"stdout","time":1928.543600408,"data":"  250/256 (3.37s/frame)\n"}
+,{"stream_name":"stdout","time":1948.874590588,"data":"  fold 1 done in 14.4 min\n"}
+,{"stream_name":"stdout","time":1949.427537997,"data":"fold 2: 15 few-shot demos (5/class), 256 val frames\n"}
+,{"stream_name":"stdout","time":2128.132000203,"data":"  50/256 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":2306.528282167,"data":"  100/256 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":2484.838961072,"data":"  150/256 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":2663.36457868,"data":"  200/256 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":2841.461982295,"data":"  250/256 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":2862.894792135,"data":"  fold 2 done in 15.2 min\n"}
+,{"stream_name":"stdout","time":2863.342451338,"data":"fold 3: 14 few-shot demos (5/class), 256 val frames\n"}
+,{"stream_name":"stdout","time":3032.413776493,"data":"  50/256 (3.38s/frame)\n"}
+,{"stream_name":"stdout","time":3201.98810499,"data":"  100/256 (3.39s/frame)\n"}
+,{"stream_name":"stdout","time":3372.177573175,"data":"  150/256 (3.39s/frame)\n"}
+,{"stream_name":"stdout","time":3541.209481694,"data":"  200/256 (3.39s/frame)\n"}
+,{"stream_name":"stdout","time":3709.83971712,"data":"  250/256 (3.39s/frame)\n"}
+,{"stream_name":"stdout","time":3730.076856537,"data":"  fold 3 done in 14.4 min\n"}
+,{"stream_name":"stdout","time":3730.857220774,"data":"fold 4: 15 few-shot demos (5/class), 224 val frames\n"}
+,{"stream_name":"stdout","time":3909.379435005,"data":"  50/224 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":4087.928076275,"data":"  100/224 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":4266.59847857,"data":"  150/224 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":4444.642872964,"data":"  200/224 (3.57s/frame)\n"}
+,{"stream_name":"stdout","time":4530.279923333,"data":"  fold 4 done in 13.3 min\n"}
+,{"stream_name":"stdout","time":4530.499163207,"data":"zero_shot: QWK=0.1373 acc=0.556 macroF1=0.353 pred_dist=[953, 276, 19]\n"}
+,{"stream_name":"stdout","time":4530.499190671,"data":"few_shot: QWK=0.0204 acc=0.060 macroF1=0.068 pred_dist=[114, 0, 1134]\n"}
+,{"stream_name":"stdout","time":4530.68928491,"data":"\n"}
+,{"stream_name":"stdout","time":4530.689316819,"data":"=== LoRA fold 0 | train 992 · val 256\n"}
+,{"stream_name":"stdout","time":4592.485533561,"data":"  adapter 2.52M / 4.69B (0.054%)\n"}
+,{"stream_name":"stderr","time":4592.869102815,"data":"`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...\n"}
+,{"stream_name":"stderr","time":4592.869144042,"data":"\n"}
+,{"stream_name":"stderr","time":4592.869151397,"data":"`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...\n"}
+,{"stream_name":"stdout","time":4846.088966135,"data":"    ep1 200/992 loss=0.7688 vram=3.8GB\n"}
+,{"stream_name":"stdout","time":5099.209926526,"data":"    ep1 400/992 loss=0.6684 vram=3.8GB\n"}
+,{"stream_name":"stdout","time":5351.587088198,"data":"    ep1 600/992 loss=0.6952 vram=3.8GB\n"}
+,{"stream_name":"stdout","time":5602.129479381,"data":"    ep1 800/992 loss=0.5940 vram=3.8GB\n"}
+,{"stream_name":"stdout","time":5842.475183937,"data":"  epoch 1/2 loss=0.6697\n"}
+,{"stream_name":"stdout","time":6089.805679092,"data":"    ep2 200/992 loss=0.5910 vram=3.8GB\n"}
+,{"stream_name":"stdout","time":6336.112247241,"data":"    ep2 400/992 loss=0.5964 vram=3.8GB\n"}
+,{"stream_name":"stdout","time":6581.930508923,"data":"    ep2 600/992 loss=0.4690 vram=3.8GB\n"}
+,{"stream_name":"stdout","time":6827.8830148,"data":"    ep2 800/992 loss=0.4808 vram=3.8GB\n"}
+,{"stream_name":"stdout","time":7063.547939456,"data":"  epoch 2/2 loss=0.5053\n"}
+,{"stream_name":"stdout","time":7087.671106518,"data":"    eval 50/256\n"}
+,{"stream_name":"stdout","time":7111.824350387,"data":"    eval 100/256\n"}
+,{"stream_name":"stdout","time":7136.324473291,"data":"    eval 150/256\n"}
+,{"stream_name":"stdout","time":7160.646232433,"data":"    eval 200/256\n"}
+,{"stream_name":"stdout","time":7184.973869333,"data":"    eval 250/256\n"}
+,{"stream_name":"stdout","time":7188.027389446,"data":"  fold 0 DONE QWK=0.2488 acc=0.660 pred_dist=[203, 53, 0] (44 min)\n"}
+,{"stream_name":"stdout","time":7188.454051675,"data":"\n"}
+,{"stream_name":"stdout","time":7188.454121355,"data":"=== LoRA fold 1 | train 992 · val 256\n"}
+,{"stream_name":"stdout","time":7200.296359664,"data":"  adapter 2.52M / 4.69B (0.054%)\n"}
+,{"stream_name":"stdout","time":7445.167940968,"data":"    ep1 200/992 loss=0.7725 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":7689.441443965,"data":"    ep1 400/992 loss=0.6296 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":7933.953569997,"data":"    ep1 600/992 loss=0.6606 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":8178.696138616,"data":"    ep1 800/992 loss=0.6645 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":8413.951973831,"data":"  epoch 1/2 loss=0.6746\n"}
+,{"stream_name":"stdout","time":8658.668648124,"data":"    ep2 200/992 loss=0.5628 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":8904.082850513,"data":"    ep2 400/992 loss=0.6169 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":9150.402817335,"data":"    ep2 600/992 loss=0.5174 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":9395.31017822,"data":"    ep2 800/992 loss=0.5469 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":9630.502456987,"data":"  epoch 2/2 loss=0.5309\n"}
+,{"stream_name":"stdout","time":9653.934628653,"data":"    eval 50/256\n"}
+,{"stream_name":"stdout","time":9677.165372494,"data":"    eval 100/256\n"}
+,{"stream_name":"stdout","time":9700.686351286,"data":"    eval 150/256\n"}
+,{"stream_name":"stdout","time":9724.300531008,"data":"    eval 200/256\n"}
+,{"stream_name":"stdout","time":9747.819665794,"data":"    eval 250/256\n"}
+,{"stream_name":"stdout","time":9750.763441397,"data":"  fold 1 DONE QWK=0.5105 acc=0.762 pred_dist=[151, 105, 0] (43 min)\n"}
+,{"stream_name":"stdout","time":9751.170039083,"data":"\n"}
+,{"stream_name":"stdout","time":9751.170090136,"data":"=== LoRA fold 2 | train 992 · val 256\n"}
+,{"stream_name":"stdout","time":9761.481747648,"data":"  adapter 2.52M / 4.69B (0.054%)\n"}
+,{"stream_name":"stdout","time":10006.720927922,"data":"    ep1 200/992 loss=0.7809 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":10251.86678742,"data":"    ep1 400/992 loss=0.7274 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":10497.103840182,"data":"    ep1 600/992 loss=0.6916 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":10741.897086205,"data":"    ep1 800/992 loss=0.6754 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":10977.379114431,"data":"  epoch 1/2 loss=0.7123\n"}
+,{"stream_name":"stdout","time":11222.753000721,"data":"    ep2 200/992 loss=0.6272 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":11468.302903998,"data":"    ep2 400/992 loss=0.5716 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":11713.806386351,"data":"    ep2 600/992 loss=0.5624 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":11959.440880378,"data":"    ep2 800/992 loss=0.4604 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":12195.170495183,"data":"  epoch 2/2 loss=0.5311\n"}
+,{"stream_name":"stdout","time":12218.538751388,"data":"    eval 50/256\n"}
+,{"stream_name":"stdout","time":12242.09126185,"data":"    eval 100/256\n"}
+,{"stream_name":"stdout","time":12265.573269546,"data":"    eval 150/256\n"}
+,{"stream_name":"stdout","time":12289.092064376,"data":"    eval 200/256\n"}
+,{"stream_name":"stdout","time":12312.704431542,"data":"    eval 250/256\n"}
+,{"stream_name":"stdout","time":12315.679206435,"data":"  fold 2 DONE QWK=0.5478 acc=0.773 pred_dist=[117, 139, 0] (43 min)\n"}
+,{"stream_name":"stdout","time":12316.088410705,"data":"\n"}
+,{"stream_name":"stdout","time":12316.088472857,"data":"=== LoRA fold 3 | train 992 · val 256\n"}
+,{"stream_name":"stdout","time":12326.430004244,"data":"  adapter 2.52M / 4.69B (0.054%)\n"}
+,{"stream_name":"stdout","time":12573.004021602,"data":"    ep1 200/992 loss=0.7595 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":12817.744241132,"data":"    ep1 400/992 loss=0.6709 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":13062.899468897,"data":"    ep1 600/992 loss=0.5903 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":13307.905740134,"data":"    ep1 800/992 loss=0.6478 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":13542.937511841,"data":"  epoch 1/2 loss=0.6542\n"}
+,{"stream_name":"stdout","time":13787.719249106,"data":"    ep2 200/992 loss=0.5566 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":14031.894681561,"data":"    ep2 400/992 loss=0.5649 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":14276.622690502,"data":"    ep2 600/992 loss=0.4758 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":14521.787963063,"data":"    ep2 800/992 loss=0.5107 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":14756.356658517,"data":"  epoch 2/2 loss=0.5287\n"}
+,{"stream_name":"stdout","time":14779.665451897,"data":"    eval 50/256\n"}
+,{"stream_name":"stdout","time":14802.947847759,"data":"    eval 100/256\n"}
+,{"stream_name":"stdout","time":14826.437570046,"data":"    eval 150/256\n"}
+,{"stream_name":"stdout","time":14849.955395546,"data":"    eval 200/256\n"}
+,{"stream_name":"stdout","time":14873.442078512,"data":"    eval 250/256\n"}
+,{"stream_name":"stdout","time":14876.399074233,"data":"  fold 3 DONE QWK=0.2068 acc=0.652 pred_dist=[101, 155, 0] (43 min)\n"}
+,{"stream_name":"stdout","time":14876.827147234,"data":"\n"}
+,{"stream_name":"stdout","time":14876.827188013,"data":"=== LoRA fold 4 | train 1024 · val 224\n"}
+,{"stream_name":"stdout","time":14887.017737977,"data":"  adapter 2.52M / 4.69B (0.054%)\n"}
+,{"stream_name":"stdout","time":15132.421436122,"data":"    ep1 200/1024 loss=0.6646 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":15377.643660854,"data":"    ep1 400/1024 loss=0.6598 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":15623.254814164,"data":"    ep1 600/1024 loss=0.5914 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":15868.541494801,"data":"    ep1 800/1024 loss=0.5908 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":16114.769661699,"data":"    ep1 1000/1024 loss=0.6370 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":16144.030313508,"data":"  epoch 1/2 loss=0.6266\n"}
+,{"stream_name":"stdout","time":16389.365781723,"data":"    ep2 200/1024 loss=0.5596 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":16635.108314813,"data":"    ep2 400/1024 loss=0.5470 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":16881.460455139,"data":"    ep2 600/1024 loss=0.4880 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":17127.314695547,"data":"    ep2 800/1024 loss=0.5041 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":17374.276575689,"data":"    ep2 1000/1024 loss=0.5102 vram=3.9GB\n"}
+,{"stream_name":"stdout","time":17403.681927507,"data":"  epoch 2/2 loss=0.5186\n"}
+,{"stream_name":"stdout","time":17427.323847752,"data":"    eval 50/224\n"}
+,{"stream_name":"stdout","time":17451.061295408,"data":"    eval 100/224\n"}
+,{"stream_name":"stdout","time":17474.836313868,"data":"    eval 150/224\n"}
+,{"stream_name":"stdout","time":17498.506888377,"data":"    eval 200/224\n"}
+,{"stream_name":"stdout","time":17509.927667134,"data":"  fold 4 DONE QWK=-0.1028 acc=0.446 pred_dist=[105, 119, 0] (44 min)\n"}
+,{"stream_name":"stdout","time":17510.204258588,"data":"\n"}
+,{"stream_name":"stdout","time":17510.204290591,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":17510.204297575,"data":"PAPER II — corrected protocol, all conditions\n"}
+,{"stream_name":"stdout","time":17510.204302895,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":17510.204307649,"data":"slice          : 1248 frames · dist [603, 639, 6] (0.48% high)\n"}
+,{"stream_name":"stdout","time":17510.204312298,"data":"published slice: 1248 frames · dist [587, 605, 56] (4.49% high)  \u003c-- differs\n"}
+,{"stream_name":"stdout","time":17510.204317573,"data":"folds          : subject-disjoint, verified\n"}
+,{"stream_name":"stdout","time":17510.20433433,"data":"zero_shot      : QWK=0.137 MAE=0.454 macroF1=0.353 acc=0.556 dist=[953, 276, 19]\n"}
+,{"stream_name":"stdout","time":17510.20433843,"data":"few_shot       : QWK=0.020 MAE=1.368 macroF1=0.068 acc=0.060 dist=[114, 0, 1134]\n"}
+,{"stream_name":"stdout","time":17510.204341834,"data":"lora (5/5)   : QWK=0.282±0.236 MAE=0.345 macroF1=0.428 acc=0.659\n"}
+,{"stream_name":"stdout","time":17510.20434508,"data":"per-fold QWK   : [0.249, 0.51, 0.548, 0.207, -0.103]\n"}
+,{"stream_name":"stdout","time":17510.204348248,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":17510.204352464,"data":"Download paper2d_results/ into dipseer/paper2/results/.\n"}
+,{"stream_name":"stderr","time":17517.488103431,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":17517.48814499,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":17517.765333935,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":17517.765376914,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":17519.103949454,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":17519.496153333,"data":"[NbConvertApp] Writing 363570 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":17521.941516946,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":17523.170797726,"data":"[NbConvertApp] Writing 669331 bytes to __results__.html\n"}
+]

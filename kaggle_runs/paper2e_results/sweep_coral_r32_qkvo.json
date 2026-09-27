@@ -1,0 +1,64 @@
+{
+  "config": {
+    "name": "coral_r32_qkvo",
+    "mode": "coral",
+    "rank": 32,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "epochs": 3,
+    "lr": 0.0001,
+    "accum": 4,
+    "balanced": false
+  },
+  "folds": [
+    0
+  ],
+  "mean_qwk": 0.0,
+  "std_qwk": 0.0,
+  "mean_acc": 0.5625,
+  "mean_f1": 0.24,
+  "mean_mae": 0.4453125,
+  "per_fold": [
+    {
+      "qwk": 0.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.24,
+      "mae": 0.4453125,
+      "mcc": 0.0,
+      "per_class_f1": [
+        0.72,
+        0.0,
+        0.0
+      ],
+      "confusion_matrix": [
+        [
+          144,
+          0,
+          0
+        ],
+        [
+          110,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "pred_dist": [
+        256,
+        0,
+        0
+      ],
+      "fold": 0
+    }
+  ],
+  "wall_clock_s": 3574.5
+}

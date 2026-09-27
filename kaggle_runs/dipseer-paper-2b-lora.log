@@ -1,0 +1,170 @@
+[{"stream_name":"stderr","time":6.32152153,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.321590326,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.321597071,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.321601574,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.889891245,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.889929283,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.8899351410000005,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.889939579,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.317345239,"data":"[pip OK] transformers\u003e=4.45.0\n"}
+,{"stream_name":"stdout","time":18.376152039,"data":"[pip OK] bitsandbytes\u003e=0.43.0\n"}
+,{"stream_name":"stdout","time":21.733385444,"data":"[pip OK] peft\u003e=0.11.0\n"}
+,{"stream_name":"stdout","time":24.964010588,"data":"[pip OK] accelerate\u003e=0.30.0\n"}
+,{"stream_name":"stdout","time":29.306658944,"data":"[pip OK] qwen-vl-utils\n"}
+,{"stream_name":"stdout","time":29.306703913,"data":"All dependencies installed.\n"}
+,{"stream_name":"stdout","time":32.175621325,"data":"[SMALL-real mode] all subjects · 40 frames/subj · LoRA 2 ep\n"}
+,{"stream_name":"stdout","time":227.618571351,"data":"Manifest built — 1560 frames · 20 subjects · 195.1s | dist [737, 818, 5]\n"}
+,{"stream_name":"stdout","time":227.61862545,"data":"GroupKFold: 5 folds | val sizes: [320, 320, 320, 320, 280]\n"}
+,{"stream_name":"stdout","time":227.618634329,"data":"✅ Manifest ready.\n"}
+,{"stream_name":"stdout","time":227.644566275,"data":"⚠️  Paper 1 results not attached — baseline row absent from table.\n"}
+,{"stream_name":"stderr","time":227.645708019,"data":"/tmp/ipykernel_24/1889141912.py:8: UserWarning: Paper 1 results not found at /kaggle/input/dipseer-paper1-results.\n"}
+,{"stream_name":"stderr","time":227.645739125,"data":"  warnings.warn(f\"Paper 1 results not found at {paper1_results_dir}.\")\n"}
+,{"stream_name":"stderr","time":227.645746275,"data":"/tmp/ipykernel_24/1889141912.py:28: UserWarning: 07a results not found at /kaggle/input/dipseer-paper2a-results — full table will omit zero-shot / few-shot rows.\n"}
+,{"stream_name":"stderr","time":227.64575264,"data":"  warnings.warn(f\"07a results not found at {paper2a_dir} — full table will omit \"\n"}
+,{"stream_name":"stderr","time":227.645758258,"data":"\n"}
+,{"stream_name":"stderr","time":227.645762922,"data":"/tmp/ipykernel_24/1889141912.py:8: UserWarning: Paper 1 results not found at /kaggle/input/dipseer-paper1-results.\n"}
+,{"stream_name":"stderr","time":227.645768116,"data":"  warnings.warn(f\"Paper 1 results not found at {paper1_results_dir}.\")\n"}
+,{"stream_name":"stderr","time":227.645773167,"data":"/tmp/ipykernel_24/1889141912.py:28: UserWarning: 07a results not found at /kaggle/input/dipseer-paper2a-results — full table will omit zero-shot / few-shot rows.\n"}
+,{"stream_name":"stderr","time":227.645779203,"data":"  warnings.warn(f\"07a results not found at {paper2a_dir} — full table will omit \"\n"}
+,{"stream_name":"stdout","time":232.086323395,"data":"CUDA: True\n"}
+,{"stream_name":"stdout","time":232.086354966,"data":"  GPU 0: Tesla T4  15.6 GB\n"}
+,{"stream_name":"stdout","time":232.08636142,"data":"  GPU 1: Tesla T4  15.6 GB\n"}
+,{"stream_name":"stdout","time":248.051321268,"data":"GPU: Tesla T4  compute capability 7.5\n"}
+,{"stream_name":"stdout","time":248.051370262,"data":"Loading Qwen/Qwen2-VL-7B-Instruct …\n"}
+,{"stream_name":"stderr","time":248.068003866,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":248.06804183,"data":"\n"}
+,{"stream_name":"stderr","time":248.068048928,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":390.371862002,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":390.371918526,"data":"\n"}
+,{"stream_name":"stderr","time":390.371927167,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stdout","time":392.692410467,"data":"VLM loaded  |  device map: {'0', '1'}\n"}
+,{"stream_name":"stdout","time":392.69247858,"data":"✅ VLM ready.\n"}
+,{"stream_name":"stdout","time":392.893329168,"data":"\n"}
+,{"stream_name":"stdout","time":392.893365932,"data":"Fold 0 — train 1240 | val 320\n"}
+,{"stream_name":"stdout","time":392.893374713,"data":"  running LoRA …\n"}
+,{"stream_name":"stdout","time":393.63412642,"data":"trainable params: 2,523,136 || all params: 8,293,898,752 || trainable%: 0.0304\n"}
+,{"stream_name":"stdout","time":1154.898274931,"data":"    LoRA epoch 1/2  loss=4.6946\n"}
+,{"stream_name":"stdout","time":1905.969590816,"data":"    LoRA epoch 2/2  loss=4.1485\n"}
+,{"stream_name":"stdout","time":1940.891415172,"data":"    lora eval 50/320 frames done\n"}
+,{"stream_name":"stdout","time":1975.517427337,"data":"    lora eval 100/320 frames done\n"}
+,{"stream_name":"stdout","time":2010.448960915,"data":"    lora eval 150/320 frames done\n"}
+,{"stream_name":"stdout","time":2045.515037302,"data":"    lora eval 200/320 frames done\n"}
+,{"stream_name":"stdout","time":2080.492356916,"data":"    lora eval 250/320 frames done\n"}
+,{"stream_name":"stdout","time":2115.344340859,"data":"    lora eval 300/320 frames done\n"}
+,{"stream_name":"stderr","time":2129.114660317,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":2129.11472737,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2129.114734872,"data":"\n"}
+,{"stream_name":"stderr","time":2129.114740031,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":2129.114745219,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":2131.229898846,"data":"  [lora]  QWK 0.270  F1 0.399  acc 0.609\n"}
+,{"stream_name":"stdout","time":2131.229946346,"data":"\n"}
+,{"stream_name":"stdout","time":2131.229951744,"data":"Fold 1 — train 1240 | val 320\n"}
+,{"stream_name":"stdout","time":2131.229969242,"data":"  running LoRA …\n"}
+,{"stream_name":"stdout","time":2131.229990994,"data":"trainable params: 2,523,136 || all params: 8,293,898,752 || trainable%: 0.0304\n"}
+,{"stream_name":"stderr","time":2131.234985893,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!\n"}
+,{"stream_name":"stderr","time":2131.235010657,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2131.235015733,"data":"\n"}
+,{"stream_name":"stderr","time":2131.235019418,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!\n"}
+,{"stream_name":"stderr","time":2131.235024141,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":2882.486836581,"data":"    LoRA epoch 1/2  loss=4.2938\n"}
+,{"stream_name":"stdout","time":3633.992392545,"data":"    LoRA epoch 2/2  loss=4.1434\n"}
+,{"stream_name":"stdout","time":3668.630233237,"data":"    lora eval 50/320 frames done\n"}
+,{"stream_name":"stdout","time":3702.730224082,"data":"    lora eval 100/320 frames done\n"}
+,{"stream_name":"stdout","time":3737.424324281,"data":"    lora eval 150/320 frames done\n"}
+,{"stream_name":"stdout","time":3771.806984181,"data":"    lora eval 200/320 frames done\n"}
+,{"stream_name":"stdout","time":3805.976104282,"data":"    lora eval 250/320 frames done\n"}
+,{"stream_name":"stdout","time":3840.417030535,"data":"    lora eval 300/320 frames done\n"}
+,{"stream_name":"stderr","time":3854.401899187,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":3854.401961637,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3854.401968845,"data":"\n"}
+,{"stream_name":"stderr","time":3854.401974264,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":3854.401980579,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":3856.51840215,"data":"  [lora]  QWK 0.262  F1 0.386  acc 0.637\n"}
+,{"stream_name":"stdout","time":3856.518445521,"data":"\n"}
+,{"stream_name":"stdout","time":3856.518451254,"data":"Fold 2 — train 1240 | val 320\n"}
+,{"stream_name":"stdout","time":3856.518456727,"data":"  running LoRA …\n"}
+,{"stream_name":"stdout","time":3856.518461228,"data":"trainable params: 2,523,136 || all params: 8,293,898,752 || trainable%: 0.0304\n"}
+,{"stream_name":"stderr","time":3856.519381618,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!\n"}
+,{"stream_name":"stderr","time":3856.519413893,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3856.519436334,"data":"\n"}
+,{"stream_name":"stderr","time":3856.519440896,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!\n"}
+,{"stream_name":"stderr","time":3856.519446228,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4607.706591591,"data":"    LoRA epoch 1/2  loss=4.2392\n"}
+,{"stream_name":"stdout","time":5359.232378788,"data":"    LoRA epoch 2/2  loss=4.1437\n"}
+,{"stream_name":"stdout","time":5393.730087754,"data":"    lora eval 50/320 frames done\n"}
+,{"stream_name":"stdout","time":5427.866056212,"data":"    lora eval 100/320 frames done\n"}
+,{"stream_name":"stdout","time":5462.345643711,"data":"    lora eval 150/320 frames done\n"}
+,{"stream_name":"stdout","time":5496.737190143,"data":"    lora eval 200/320 frames done\n"}
+,{"stream_name":"stdout","time":5531.103571389,"data":"    lora eval 250/320 frames done\n"}
+,{"stream_name":"stdout","time":5565.631409211,"data":"    lora eval 300/320 frames done\n"}
+,{"stream_name":"stderr","time":5579.75094503,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":5579.751006751,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":5579.751014475,"data":"\n"}
+,{"stream_name":"stderr","time":5579.751020128,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":5579.751025493,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5581.950397429,"data":"  [lora]  QWK 0.669  F1 0.556  acc 0.834\n"}
+,{"stream_name":"stdout","time":5581.950463256,"data":"\n"}
+,{"stream_name":"stdout","time":5581.950471713,"data":"Fold 3 — train 1240 | val 320\n"}
+,{"stream_name":"stdout","time":5581.950477923,"data":"  running LoRA …\n"}
+,{"stream_name":"stdout","time":5581.950483174,"data":"trainable params: 2,523,136 || all params: 8,293,898,752 || trainable%: 0.0304\n"}
+,{"stream_name":"stderr","time":5581.951303174,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!\n"}
+,{"stream_name":"stderr","time":5581.951331805,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":5581.951377224,"data":"\n"}
+,{"stream_name":"stderr","time":5581.95138983,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!\n"}
+,{"stream_name":"stderr","time":5581.951396406,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6333.552372535,"data":"    LoRA epoch 1/2  loss=4.2184\n"}
+,{"stream_name":"stdout","time":7084.539549001,"data":"    LoRA epoch 2/2  loss=4.1441\n"}
+,{"stream_name":"stdout","time":7119.355044238,"data":"    lora eval 50/320 frames done\n"}
+,{"stream_name":"stdout","time":7154.111324028,"data":"    lora eval 100/320 frames done\n"}
+,{"stream_name":"stdout","time":7189.060665622,"data":"    lora eval 150/320 frames done\n"}
+,{"stream_name":"stdout","time":7223.599918571,"data":"    lora eval 200/320 frames done\n"}
+,{"stream_name":"stdout","time":7258.175830816,"data":"    lora eval 250/320 frames done\n"}
+,{"stream_name":"stdout","time":7292.730401733,"data":"    lora eval 300/320 frames done\n"}
+,{"stream_name":"stderr","time":7306.374528937,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":7306.374579716,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":7306.37458652,"data":"\n"}
+,{"stream_name":"stderr","time":7306.374591994,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":7306.374613121,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7308.50237801,"data":"  [lora]  QWK 0.309  F1 0.434  acc 0.678\n"}
+,{"stream_name":"stdout","time":7308.502410363,"data":"\n"}
+,{"stream_name":"stdout","time":7308.502414735,"data":"Fold 4 — train 1280 | val 280\n"}
+,{"stream_name":"stdout","time":7308.50241885,"data":"  running LoRA …\n"}
+,{"stream_name":"stdout","time":7308.502422457,"data":"trainable params: 2,523,136 || all params: 8,293,898,752 || trainable%: 0.0304\n"}
+,{"stream_name":"stderr","time":7308.508703741,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!\n"}
+,{"stream_name":"stderr","time":7308.508727968,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":7308.50873215,"data":"\n"}
+,{"stream_name":"stderr","time":7308.508735577,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!\n"}
+,{"stream_name":"stderr","time":7308.508739755,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8084.64045716,"data":"    LoRA epoch 1/2  loss=4.1998\n"}
+,{"stream_name":"stdout","time":8859.901925066,"data":"    LoRA epoch 2/2  loss=4.1444\n"}
+,{"stream_name":"stdout","time":8894.277398433,"data":"    lora eval 50/280 frames done\n"}
+,{"stream_name":"stdout","time":8928.694198053,"data":"    lora eval 100/280 frames done\n"}
+,{"stream_name":"stdout","time":8963.040689968,"data":"    lora eval 150/280 frames done\n"}
+,{"stream_name":"stdout","time":8997.480652274,"data":"    lora eval 200/280 frames done\n"}
+,{"stream_name":"stdout","time":9031.880341214,"data":"    lora eval 250/280 frames done\n"}
+,{"stream_name":"stderr","time":9052.358795393,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":9052.358883278,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":9052.3588916,"data":"\n"}
+,{"stream_name":"stderr","time":9052.358896563,"data":"/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.\n"}
+,{"stream_name":"stderr","time":9052.358901811,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9054.313263979,"data":"  [lora]  QWK 0.015  F1 0.280  acc 0.489\n"}
+,{"stream_name":"stdout","time":9054.313315075,"data":"\n"}
+,{"stream_name":"stdout","time":9054.313322457,"data":"5/5 folds completed.\n"}
+,{"stream_name":"stdout","time":9054.353493545,"data":"\n"}
+,{"stream_name":"stdout","time":9054.353532968,"data":"==============================================================================\n"}
+,{"stream_name":"stdout","time":9054.353541228,"data":"Condition                                          QWK     MAE      F1     Acc\n"}
+,{"stream_name":"stdout","time":9054.353547208,"data":"==============================================================================\n"}
+,{"stream_name":"stdout","time":9054.353552346,"data":"LoRA VLM (rank 8, 2 ep)                     0.305±0.209  0.352  0.411  0.650\n"}
+,{"stream_name":"stdout","time":9054.353558191,"data":"==============================================================================\n"}
+,{"stream_name":"stdout","time":9054.353576624,"data":"Results saved → /kaggle/working/paper2b_results\n"}
+,{"stream_name":"stdout","time":9054.353580885,"data":"⚠️  07a results not attached — table omits zero-shot / few-shot rows. Attach dipseer-paper2a-results and re-run cell to complete it.\n"}
+,{"stream_name":"stdout","time":9054.353584737,"data":"✅ Done.\n"}
+,{"stream_name":"stderr","time":9060.233514609,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":9060.233566177,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":9060.398025477,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":9060.398090025,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":9061.022230022,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":9061.411415249,"data":"[NbConvertApp] Writing 204254 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":9063.822791215,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":9064.808042005,"data":"[NbConvertApp] Writing 549680 bytes to __results__.html\n"}
+]

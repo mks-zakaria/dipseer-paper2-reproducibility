@@ -1,0 +1,64 @@
+{
+  "config": {
+    "name": "gen_r32_qkvo",
+    "mode": "generate",
+    "rank": 32,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "epochs": 2,
+    "lr": 0.0002,
+    "accum": 4,
+    "balanced": false
+  },
+  "folds": [
+    0
+  ],
+  "mean_qwk": 0.07246376811594202,
+  "std_qwk": 0.0,
+  "mean_acc": 0.58203125,
+  "mean_f1": 0.3275704613446701,
+  "mean_mae": 0.42578125,
+  "per_fold": [
+    {
+      "qwk": 0.07246376811594202,
+      "accuracy": 0.58203125,
+      "balanced_accuracy": 0.3592171717171717,
+      "f1_macro": 0.3275704613446701,
+      "mae": 0.42578125,
+      "mcc": 0.10982582746164571,
+      "per_class_f1": [
+        0.7068493150684931,
+        0.27586206896551724,
+        0.0
+      ],
+      "confusion_matrix": [
+        [
+          129,
+          15,
+          0
+        ],
+        [
+          90,
+          20,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "pred_dist": [
+        221,
+        35,
+        0
+      ],
+      "fold": 0
+    }
+  ],
+  "wall_clock_s": 2671.1
+}

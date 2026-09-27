@@ -1,0 +1,77 @@
+{
+  "paper": "Paper II — MLLM vs Task-Specific Models for Ordinal Student Attention",
+  "dataset": "DIPSER (group_01, exp 01/05, 20 subjects, 1,248 frames, 3 ordinal classes)",
+  "model": "Qwen2-VL-7B-Instruct (4-bit NF4)",
+  "protocol": "GroupKFold 5, seed=0, subject-disjoint",
+  "primary_metric": "Quadratic Weighted Kappa (QWK)",
+  "corrected_protocol_results": {
+    "LoRA_5fold": {
+      "source": "dipseer-paper-2d-all-conditions",
+      "kaggle_url": "https://www.kaggle.com/code/zakariamakhas/dipseer-paper-2d-all-conditions",
+      "mean_qwk": 0.28219828315770573,
+      "std_qwk": 0.23567258457069717,
+      "mean_mae": 0.3450892857142857,
+      "mean_f1_macro": 0.42772544290938336,
+      "mean_accuracy": 0.6588169642857143,
+      "per_fold_qwk": [0.248769, 0.510487, 0.547786, 0.206784, -0.102835],
+      "pooled_qwk": 0.32006176326592095,
+      "config": {
+        "rank": 8,
+        "target_modules": ["q_proj", "v_proj"],
+        "epochs": 2,
+        "lr": 2e-4,
+        "effective_batch": 4,
+        "trainable_params": 2523136
+      }
+    },
+    "TaskSpecificBaseline_5fold": {
+      "source": "dipseer-paper-2f-baseline-matched",
+      "kaggle_url": "https://www.kaggle.com/code/zakariamakhas/dipseer-paper-2f-baseline-matched",
+      "mean_qwk": 0.22955727449936797,
+      "std_qwk": 0.15370023806645758,
+      "mean_mae": 0.37075892857142856,
+      "mean_f1_macro": 0.4060850218091273,
+      "mean_accuracy": 0.6323660714285715,
+      "per_fold_qwk": [-0.025795, 0.316699, 0.373279, 0.352176, 0.131429],
+      "config": "DenseNet·CORAL·Tchebichef (from Paper I)"
+    },
+    "ZeroShot": {
+      "source": "dipseer-paper-2d-all-conditions",
+      "evaluation": "pooled over 1,248 frames (5 folds union)",
+      "qwk": 0.13734595963128216,
+      "mae": 0.4543269230769231,
+      "f1_macro": 0.3534713735185731,
+      "accuracy": 0.5560897435897436,
+      "pred_dist": [953, 276, 19]
+    },
+    "FewShot": {
+      "source": "dipseer-paper-2d-all-conditions",
+      "evaluation": "pooled over 1,248 frames (5 folds union)",
+      "qwk": 0.020426450522371353,
+      "mae": 1.3677884615384615,
+      "f1_macro": 0.0676649783454452,
+      "accuracy": 0.06009615384615385,
+      "pred_dist": [114, 0, 1134],
+      "note": "degenerate — model echoes last in-context demo (high)"
+    }
+  },
+  "historical_runs": {
+    "paper2a_zero_few_shot": {
+      "kaggle_url": "https://www.kaggle.com/code/zakariamakhas/dipseer-paper-2a-zero-shot-few-shot-vlm",
+      "note": "Original zero/few-shot run on different slice (300 frames/sub)"
+    },
+    "paper2b_lora_fold0": {
+      "kaggle_url": "https://www.kaggle.com/code/zakariamakhas/dipseer-paper-2b-lora",
+      "note": "Original LoRA run — OOM after fold 0, cross-fold contamination bug"
+    },
+    "dipser_mllm_fullmetrics": {
+      "kaggle_url": "https://www.kaggle.com/code/zakariamakhas/dipser-mllm-fullmetrics",
+      "note": "Full metrics + confusion matrices for all conditions"
+    },
+    "paper2e_finetune_sweep": {
+      "kaggle_url": "https://www.kaggle.com/code/zakariamakhas/dipseer-paper-2e-finetune-sweep",
+      "note": "LoRA sweep: rank {8,16,32}, target modules {qv, qkvo}, CORAL head variants"
+    }
+  },
+  "key_conclusion": "Adapted 7B MLLM (LoRA) ≈ Task-specific baseline on ordinal classroom attention; unadapted MLLM fails (zero-shot tracks base rates, few-shot collapses to echo)."
+}

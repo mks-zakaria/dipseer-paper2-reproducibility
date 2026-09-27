@@ -1,0 +1,98 @@
+{
+  "condition": "lora_5fold",
+  "n_folds": 5,
+  "folds_present": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "config": {
+    "model": "Qwen/Qwen2-VL-7B-Instruct",
+    "rank": 8,
+    "lr": 0.0002,
+    "epochs": 2,
+    "effective_batch": 4,
+    "img_size": 224,
+    "seed": 0,
+    "quantisation": "nf4-4bit",
+    "trainable_params": 2523136,
+    "total_params": 4694399488
+  },
+  "mean_qwk": 0.28219828315770573,
+  "mean_mae": 0.3450892857142857,
+  "mean_f1_macro": 0.42772544290938336,
+  "mean_accuracy": 0.6588169642857143,
+  "mean_balanced_accuracy": 0.5146812205177765,
+  "mean_mcc": 0.3058003405061445,
+  "std_qwk": 0.23567258457069717,
+  "std_mae": 0.11680454007422629,
+  "std_f1_macro": 0.07952350218098315,
+  "std_accuracy": 0.11737049912177415,
+  "std_balanced_accuracy": 0.1337837610761504,
+  "std_mcc": 0.23594946597927996,
+  "per_fold_qwk": [
+    0.24876940552820903,
+    0.5104870032865252,
+    0.5477858317597613,
+    0.2067840834964123,
+    -0.10283490828237918
+  ],
+  "pooled_confusion_matrix": [
+    [
+      431,
+      172,
+      0
+    ],
+    [
+      241,
+      398,
+      0
+    ],
+    [
+      5,
+      1,
+      0
+    ]
+  ],
+  "pooled_metrics": {
+    "qwk": 0.32006176326592095,
+    "kappa_linear": 0.3288841877772788,
+    "mcc": 0.3355424112634675,
+    "mae": 0.33974358974358976,
+    "accuracy": 0.6642628205128205,
+    "balanced_accuracy": 0.4458692453226824,
+    "f1_macro": 0.4437629132231405,
+    "precision_macro": 0.4445516559871898,
+    "recall_macro": 0.4458692453226824,
+    "per_class_f1": [
+      0.6734375,
+      0.6578512396694215,
+      0.0
+    ],
+    "confusion_matrix": [
+      [
+        431,
+        172,
+        0
+      ],
+      [
+        241,
+        398,
+        0
+      ],
+      [
+        5,
+        1,
+        0
+      ]
+    ],
+    "pred_dist": [
+      677,
+      571,
+      0
+    ]
+  },
+  "total_val_frames": 1248
+}

@@ -1,0 +1,145 @@
+[{"stream_name":"stderr","time":7.996495584,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.996571925,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.996576812,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.996579535,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.59790799,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.59793687,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.597942505,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.59794681,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.314951924,"data":"[pip OK] transformers\u003e=4.45.0\n"}
+,{"stream_name":"stdout","time":20.270720476,"data":"[pip OK] bitsandbytes\u003e=0.43.0\n"}
+,{"stream_name":"stdout","time":23.468853442,"data":"[pip OK] accelerate\u003e=0.30.0\n"}
+,{"stream_name":"stdout","time":27.743536819,"data":"[pip OK] qwen-vl-utils\n"}
+,{"stream_name":"stdout","time":27.743582116,"data":"All dependencies installed.\n"}
+,{"stream_name":"stdout","time":30.555181887,"data":"[SMALL-real mode] all subjects · 40 frames/subj · 5-fold real QWK\n"}
+,{"stream_name":"stdout","time":212.760592342,"data":"Manifest built — 1560 frames · 20 subjects · 181.9s | dist [737, 818, 5]\n"}
+,{"stream_name":"stdout","time":212.760627941,"data":"GroupKFold: 5 folds | val sizes: [320, 320, 320, 320, 280]\n"}
+,{"stream_name":"stdout","time":212.760635028,"data":"✅ Manifest ready.\n"}
+,{"stream_name":"stdout","time":212.785857969,"data":"⚠️  Paper 1 results not attached — baseline row absent from table.\n"}
+,{"stream_name":"stderr","time":212.78797906,"data":"/tmp/ipykernel_23/151243074.py:8: UserWarning: Paper 1 results not found at /kaggle/input/dipseer-paper1-results.\n"}
+,{"stream_name":"stderr","time":212.787997613,"data":"  warnings.warn(f\"Paper 1 results not found at {paper1_results_dir}.\")\n"}
+,{"stream_name":"stderr","time":212.788003244,"data":"\n"}
+,{"stream_name":"stderr","time":212.788007737,"data":"/tmp/ipykernel_23/151243074.py:8: UserWarning: Paper 1 results not found at /kaggle/input/dipseer-paper1-results.\n"}
+,{"stream_name":"stderr","time":212.788017633,"data":"  warnings.warn(f\"Paper 1 results not found at {paper1_results_dir}.\")\n"}
+,{"stream_name":"stdout","time":218.318788006,"data":"CUDA: True\n"}
+,{"stream_name":"stdout","time":218.318836866,"data":"  GPU 0: Tesla T4  15.6 GB\n"}
+,{"stream_name":"stdout","time":218.318846285,"data":"  GPU 1: Tesla T4  15.6 GB\n"}
+,{"stream_name":"stderr","time":235.750847498,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":235.750887965,"data":"\n"}
+,{"stream_name":"stderr","time":235.75089275,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":235.780439817,"data":"GPU: Tesla T4  compute capability 7.5\n"}
+,{"stream_name":"stdout","time":235.780465341,"data":"→ 4-bit NF4 (Turing+; ~5 GB VRAM)\n"}
+,{"stream_name":"stdout","time":235.780482057,"data":"Loading Qwen/Qwen2-VL-7B-Instruct …\n"}
+,{"stream_name":"stderr","time":375.646677427,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":375.646712867,"data":"\n"}
+,{"stream_name":"stderr","time":375.646718675,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stdout","time":377.95612787,"data":"VLM loaded  |  device map: {'0', '1'}\n"}
+,{"stream_name":"stdout","time":377.956168428,"data":"✅ VLM ready.\n"}
+,{"stream_name":"stdout","time":378.15731056,"data":"\n"}
+,{"stream_name":"stdout","time":378.157343939,"data":"Fold 0 — train 1240 | val 320\n"}
+,{"stream_name":"stdout","time":378.157349267,"data":"  running zero-shot …\n"}
+,{"stream_name":"stdout","time":413.791943965,"data":"    zero-shot 50/320 frames done\n"}
+,{"stream_name":"stdout","time":446.960216272,"data":"    zero-shot 100/320 frames done\n"}
+,{"stream_name":"stdout","time":481.715444986,"data":"    zero-shot 150/320 frames done\n"}
+,{"stream_name":"stdout","time":516.71115422,"data":"    zero-shot 200/320 frames done\n"}
+,{"stream_name":"stdout","time":551.305850397,"data":"    zero-shot 250/320 frames done\n"}
+,{"stream_name":"stdout","time":586.20812888,"data":"    zero-shot 300/320 frames done\n"}
+,{"stream_name":"stdout","time":599.885603773,"data":"  running few-shot …\n"}
+,{"stream_name":"stdout","time":747.414341492,"data":"    few-shot 50/320 frames done\n"}
+,{"stream_name":"stdout","time":894.409097313,"data":"    few-shot 100/320 frames done\n"}
+,{"stream_name":"stdout","time":1041.674205176,"data":"    few-shot 150/320 frames done\n"}
+,{"stream_name":"stdout","time":1189.165482196,"data":"    few-shot 200/320 frames done\n"}
+,{"stream_name":"stdout","time":1336.882875002,"data":"    few-shot 250/320 frames done\n"}
+,{"stream_name":"stdout","time":1484.045468778,"data":"    few-shot 300/320 frames done\n"}
+,{"stream_name":"stdout","time":1543.046090515,"data":"  [zero-shot]  QWK 0.169  F1 0.373  acc 0.616\n"}
+,{"stream_name":"stdout","time":1543.046133707,"data":"  [few-shot]  QWK 0.133  F1 0.214  acc 0.322\n"}
+,{"stream_name":"stdout","time":1543.046138785,"data":"\n"}
+,{"stream_name":"stdout","time":1543.046168071,"data":"Fold 1 — train 1240 | val 320\n"}
+,{"stream_name":"stdout","time":1543.046174053,"data":"  running zero-shot …\n"}
+,{"stream_name":"stdout","time":1578.395238706,"data":"    zero-shot 50/320 frames done\n"}
+,{"stream_name":"stdout","time":1613.124701548,"data":"    zero-shot 100/320 frames done\n"}
+,{"stream_name":"stdout","time":1647.62569755,"data":"    zero-shot 150/320 frames done\n"}
+,{"stream_name":"stdout","time":1682.659456457,"data":"    zero-shot 200/320 frames done\n"}
+,{"stream_name":"stdout","time":1717.654142159,"data":"    zero-shot 250/320 frames done\n"}
+,{"stream_name":"stdout","time":1752.771256771,"data":"    zero-shot 300/320 frames done\n"}
+,{"stream_name":"stdout","time":1766.534293077,"data":"  running few-shot …\n"}
+,{"stream_name":"stdout","time":1933.030476555,"data":"    few-shot 50/320 frames done\n"}
+,{"stream_name":"stdout","time":2099.172978237,"data":"    few-shot 100/320 frames done\n"}
+,{"stream_name":"stdout","time":2264.940738876,"data":"    few-shot 150/320 frames done\n"}
+,{"stream_name":"stdout","time":2431.360233464,"data":"    few-shot 200/320 frames done\n"}
+,{"stream_name":"stdout","time":2597.913439112,"data":"    few-shot 250/320 frames done\n"}
+,{"stream_name":"stdout","time":2764.453719922,"data":"    few-shot 300/320 frames done\n"}
+,{"stream_name":"stdout","time":2831.061992191,"data":"  [zero-shot]  QWK 0.092  F1 0.354  acc 0.556\n"}
+,{"stream_name":"stdout","time":2831.062025714,"data":"  [few-shot]  QWK 0.007  F1 0.033  acc 0.028\n"}
+,{"stream_name":"stdout","time":2831.062030088,"data":"\n"}
+,{"stream_name":"stdout","time":2831.062033118,"data":"Fold 2 — train 1240 | val 320\n"}
+,{"stream_name":"stdout","time":2831.062036799,"data":"  running zero-shot …\n"}
+,{"stream_name":"stdout","time":2866.627552678,"data":"    zero-shot 50/320 frames done\n"}
+,{"stream_name":"stdout","time":2901.416699462,"data":"    zero-shot 100/320 frames done\n"}
+,{"stream_name":"stdout","time":2936.240979164,"data":"    zero-shot 150/320 frames done\n"}
+,{"stream_name":"stdout","time":2971.626908699,"data":"    zero-shot 200/320 frames done\n"}
+,{"stream_name":"stdout","time":3006.713588349,"data":"    zero-shot 250/320 frames done\n"}
+,{"stream_name":"stdout","time":3041.908451252,"data":"    zero-shot 300/320 frames done\n"}
+,{"stream_name":"stdout","time":3056.279506892,"data":"  running few-shot …\n"}
+,{"stream_name":"stdout","time":3232.606098406,"data":"    few-shot 50/320 frames done\n"}
+,{"stream_name":"stdout","time":3409.245471016,"data":"    few-shot 100/320 frames done\n"}
+,{"stream_name":"stdout","time":3584.835049518,"data":"    few-shot 150/320 frames done\n"}
+,{"stream_name":"stdout","time":3760.442493313,"data":"    few-shot 200/320 frames done\n"}
+,{"stream_name":"stdout","time":3936.008286137,"data":"    few-shot 250/320 frames done\n"}
+,{"stream_name":"stdout","time":4112.034611927,"data":"    few-shot 300/320 frames done\n"}
+,{"stream_name":"stdout","time":4182.550102481,"data":"  [zero-shot]  QWK 0.544  F1 0.511  acc 0.769\n"}
+,{"stream_name":"stdout","time":4182.550187519,"data":"  [few-shot]  QWK 0.016  F1 0.045  acc 0.037\n"}
+,{"stream_name":"stdout","time":4182.550195584,"data":"\n"}
+,{"stream_name":"stdout","time":4182.550200292,"data":"Fold 3 — train 1240 | val 320\n"}
+,{"stream_name":"stdout","time":4182.550210822,"data":"  running zero-shot …\n"}
+,{"stream_name":"stdout","time":4217.442503039,"data":"    zero-shot 50/320 frames done\n"}
+,{"stream_name":"stdout","time":4252.332035287,"data":"    zero-shot 100/320 frames done\n"}
+,{"stream_name":"stdout","time":4286.963393473,"data":"    zero-shot 150/320 frames done\n"}
+,{"stream_name":"stdout","time":4321.803926165,"data":"    zero-shot 200/320 frames done\n"}
+,{"stream_name":"stdout","time":4356.486212559,"data":"    zero-shot 250/320 frames done\n"}
+,{"stream_name":"stdout","time":4390.995010412,"data":"    zero-shot 300/320 frames done\n"}
+,{"stream_name":"stdout","time":4404.751281588,"data":"  running few-shot …\n"}
+,{"stream_name":"stdout","time":4570.854967732,"data":"    few-shot 50/320 frames done\n"}
+,{"stream_name":"stdout","time":4735.919394557,"data":"    few-shot 100/320 frames done\n"}
+,{"stream_name":"stdout","time":4901.645654351,"data":"    few-shot 150/320 frames done\n"}
+,{"stream_name":"stdout","time":5067.696572099,"data":"    few-shot 200/320 frames done\n"}
+,{"stream_name":"stdout","time":5233.554201263,"data":"    few-shot 250/320 frames done\n"}
+,{"stream_name":"stdout","time":5399.234886102,"data":"    few-shot 300/320 frames done\n"}
+,{"stream_name":"stdout","time":5465.781653585,"data":"  [zero-shot]  QWK 0.136  F1 0.354  acc 0.541\n"}
+,{"stream_name":"stdout","time":5465.781740495,"data":"  [few-shot]  QWK 0.031  F1 0.089  acc 0.059\n"}
+,{"stream_name":"stdout","time":5465.781747785,"data":"\n"}
+,{"stream_name":"stdout","time":5465.781751561,"data":"Fold 4 — train 1280 | val 280\n"}
+,{"stream_name":"stdout","time":5465.781756495,"data":"  running zero-shot …\n"}
+,{"stream_name":"stdout","time":5500.583107892,"data":"    zero-shot 50/280 frames done\n"}
+,{"stream_name":"stdout","time":5535.451095211,"data":"    zero-shot 100/280 frames done\n"}
+,{"stream_name":"stdout","time":5570.377642627,"data":"    zero-shot 150/280 frames done\n"}
+,{"stream_name":"stdout","time":5605.27136619,"data":"    zero-shot 200/280 frames done\n"}
+,{"stream_name":"stdout","time":5639.963427416,"data":"    zero-shot 250/280 frames done\n"}
+,{"stream_name":"stdout","time":5660.88094042,"data":"  running few-shot …\n"}
+,{"stream_name":"stdout","time":5837.082501157,"data":"    few-shot 50/280 frames done\n"}
+,{"stream_name":"stdout","time":6012.909070592,"data":"    few-shot 100/280 frames done\n"}
+,{"stream_name":"stdout","time":6189.35585609,"data":"    few-shot 150/280 frames done\n"}
+,{"stream_name":"stdout","time":6365.820357886,"data":"    few-shot 200/280 frames done\n"}
+,{"stream_name":"stdout","time":6542.444275964,"data":"    few-shot 250/280 frames done\n"}
+,{"stream_name":"stdout","time":6647.816763276,"data":"  [zero-shot]  QWK -0.109  F1 0.271  acc 0.461\n"}
+,{"stream_name":"stdout","time":6647.8168318,"data":"  [few-shot]  QWK 0.008  F1 0.013  acc 0.011\n"}
+,{"stream_name":"stdout","time":6647.816841784,"data":"\n"}
+,{"stream_name":"stdout","time":6647.816846489,"data":"5/5 folds completed.\n"}
+,{"stream_name":"stdout","time":6647.859935756,"data":"\n"}
+,{"stream_name":"stdout","time":6647.859962101,"data":"==============================================================================\n"}
+,{"stream_name":"stdout","time":6647.859981425,"data":"Condition                                          QWK     MAE      F1     Acc\n"}
+,{"stream_name":"stdout","time":6647.859986699,"data":"==============================================================================\n"}
+,{"stream_name":"stdout","time":6647.859991615,"data":"Zero-shot VLM                               0.166±0.212  0.416  0.373  0.588\n"}
+,{"stream_name":"stdout","time":6647.859997219,"data":"Few-shot VLM (5/class)                      0.039±0.048  1.294  0.079  0.092\n"}
+,{"stream_name":"stdout","time":6647.860001659,"data":"==============================================================================\n"}
+,{"stream_name":"stdout","time":6647.860006759,"data":"Results saved → /kaggle/working/paper2a_results\n"}
+,{"stream_name":"stdout","time":6647.860011098,"data":"✅ Done (zero-shot + few-shot). Run 07b for LoRA + full table.\n"}
+,{"stream_name":"stderr","time":6654.21651717,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6654.21655518,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6654.412743409,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6654.412780637,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6655.068432737,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":6655.430114826,"data":"[NbConvertApp] Writing 199319 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":6657.823127448,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6658.784311562,"data":"[NbConvertApp] Writing 536208 bytes to __results__.html\n"}
+]

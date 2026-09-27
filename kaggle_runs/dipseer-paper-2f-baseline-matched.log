@@ -1,0 +1,73 @@
+[{"stream_name":"stderr","time":5.948371638,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.948459899,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":6.770932528,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.770966466,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.77097301,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.7709780330000005,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.388369422,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.388427374,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.388435139,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.388439753,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":8.804912501,"data":"[data] using /kaggle/input/datasets/zakariamakhas/dipseer-paper1-slice\n"}
+,{"stream_name":"stdout","time":8.804961532,"data":"[resume] starting fresh\n"}
+,{"stream_name":"stdout","time":81.90312894,"data":"\n"}
+,{"stream_name":"stdout","time":81.903162175,"data":"=== label pipeline, same 32-frame cap, 73s ===\n"}
+,{"stream_name":"stdout","time":81.903166771,"data":"  legacy    (05_matrix.py)  n= 1248  dist=[587, 605, 56]\n"}
+,{"stream_name":"stdout","time":81.903170071,"data":"  corrected (09_paper2d)    n= 1248  dist=[603, 639, 6]\n"}
+,{"stream_name":"stdout","time":81.903173188,"data":"  corrected_protocol run recorded: 1248 frames, dist [603, 639, 6]\n"}
+,{"stream_name":"stdout","time":81.903176735,"data":"\n"}
+,{"stream_name":"stdout","time":81.903179631,"data":"  training pool (cap=600, corrected) n=23400 dist=[11230, 12075, 95] subjects=20\n"}
+,{"stream_name":"stdout","time":491.337898323,"data":"features: slice (1248, 32, 32, 1), train pool (23400, 32, 32, 1) (409s)\n"}
+,{"stream_name":"stdout","time":499.767540798,"data":"JAX devices: [CudaDevice(id=0)]\n"}
+,{"stream_name":"stdout","time":499.989038529,"data":"\n"}
+,{"stream_name":"stdout","time":499.989076013,"data":"=== variant A (train cap=600, eval on slice) ===\n"}
+,{"stream_name":"stdout","time":627.749168791,"data":"  A fold 0: QWK -0.026  acc 0.512  F1 0.304  n_train 18600  val_dist [144, 110, 2]  (91.27s)\n"}
+,{"stream_name":"stdout","time":708.470029644,"data":"  A fold 1: QWK +0.317  acc 0.676  F1 0.447  n_train 18600  val_dist [137, 117, 2]  (80.11s)\n"}
+,{"stream_name":"stdout","time":789.43011768,"data":"  A fold 2: QWK +0.373  acc 0.688  F1 0.457  n_train 18600  val_dist [131, 125, 0]  (80.33s)\n"}
+,{"stream_name":"stdout","time":870.534942334,"data":"  A fold 3: QWK +0.352  acc 0.711  F1 0.453  n_train 18600  val_dist [72, 182, 2]  (80.51s)\n"}
+,{"stream_name":"stdout","time":935.634143898,"data":"  A fold 4: QWK +0.131  acc 0.576  F1 0.370  n_train 19200  val_dist [119, 105, 0]  (64.46s)\n"}
+,{"stream_name":"stdout","time":935.634181141,"data":"\n"}
+,{"stream_name":"stdout","time":935.634188328,"data":"=== variant B (train and eval on slice) ===\n"}
+,{"stream_name":"stdout","time":983.165655875,"data":"  B fold 0: QWK +0.000  acc 0.562  F1 0.240  n_train   992  val_dist [144, 110, 2]  (47.02s)\n"}
+,{"stream_name":"stdout","time":1026.960818993,"data":"  B fold 1: QWK +0.000  acc 0.535  F1 0.232  n_train   992  val_dist [137, 117, 2]  (43.21s)\n"}
+,{"stream_name":"stdout","time":1070.971673178,"data":"  B fold 2: QWK +0.000  acc 0.512  F1 0.226  n_train   992  val_dist [131, 125, 0]  (43.43s)\n"}
+,{"stream_name":"stdout","time":1115.998260851,"data":"  B fold 3: QWK +0.000  acc 0.281  F1 0.146  n_train   992  val_dist [72, 182, 2]  (44.41s)\n"}
+,{"stream_name":"stdout","time":1141.809534808,"data":"  B fold 4: QWK +0.000  acc 0.531  F1 0.231  n_train  1024  val_dist [119, 105, 0]  (25.33s)\n"}
+,{"stream_name":"stdout","time":1141.834715961,"data":"\n"}
+,{"stream_name":"stdout","time":1141.834742873,"data":"====================================================================\n"}
+,{"stream_name":"stdout","time":1141.834748818,"data":"QWK under the CORRECTED protocol (labels [603, 639, 6], 1,248 frames)\n"}
+,{"stream_name":"stdout","time":1141.834758692,"data":"====================================================================\n"}
+,{"stream_name":"stdout","time":1141.834777742,"data":"  zero-shot                    +0.137\n"}
+,{"stream_name":"stdout","time":1141.834784563,"data":"  few-shot                     +0.020\n"}
+,{"stream_name":"stdout","time":1141.834789791,"data":"  LoRA                         +0.282 ± 0.236\n"}
+,{"stream_name":"stdout","time":1141.834795877,"data":"  baseline (train cap=600)     +0.230 ± 0.154   per-fold [-0.026, 0.317, 0.373, 0.352, 0.131]\n"}
+,{"stream_name":"stdout","time":1141.834801465,"data":"  baseline (train on slice)    +0.000 ± 0.000   per-fold [0.0, 0.0, 0.0, 0.0, 0.0]\n"}
+,{"stream_name":"stdout","time":1141.834806289,"data":"\n"}
+,{"stream_name":"stdout","time":1141.834810703,"data":"  published baseline (legacy labels, cap=600, NOT comparable)  +0.193 ± 0.127\n"}
+,{"stream_name":"stdout","time":1141.834815383,"data":"====================================================================\n"}
+,{"stream_name":"stdout","time":1141.834820051,"data":"\n"}
+,{"stream_name":"stdout","time":1141.834824493,"data":"CAVEAT, and it decides how much of this is quotable.\n"}
+,{"stream_name":"stdout","time":1141.83485054,"data":"\n"}
+,{"stream_name":"stdout","time":1141.834854982,"data":"The corrected slice carries roughly six `high` frames in 1,248. Split five ways,\n"}
+,{"stream_name":"stdout","time":1141.834860081,"data":"some validation folds contain one or none. Quadratic weighted kappa is unstable\n"}
+,{"stream_name":"stdout","time":1141.834866945,"data":"when a class is absent from a fold: sklearn returns 0.0 for a degenerate fold\n"}
+,{"stream_name":"stdout","time":1141.83487406,"data":"rather than a defined value, and a single frame flipping can move a fold's QWK by\n"}
+,{"stream_name":"stdout","time":1141.834879802,"data":"a large amount. The corrected LoRA figure shows exactly this, ±0.236 around a mean\n"}
+,{"stream_name":"stdout","time":1141.834886249,"data":"of 0.282 with one fold at −0.103.\n"}
+,{"stream_name":"stdout","time":1141.834892479,"data":"\n"}
+,{"stream_name":"stdout","time":1141.834898068,"data":"So treat the five-fold mean as indicative and report the per-fold spread beside\n"}
+,{"stream_name":"stdout","time":1141.83490321,"data":"it, as the manuscript already does elsewhere. If the baseline and LoRA intervals\n"}
+,{"stream_name":"stdout","time":1141.834908256,"data":"overlap, the honest sentence is that this slice cannot separate them, not that\n"}
+,{"stream_name":"stdout","time":1141.834913217,"data":"one wins. A properly powered comparison needs either more `high` frames or a\n"}
+,{"stream_name":"stdout","time":1141.834929798,"data":"two-class collapse, and that is a decision about the paper's task definition\n"}
+,{"stream_name":"stdout","time":1141.834933869,"data":"rather than something this notebook can settle.\n"}
+,{"stream_name":"stdout","time":1141.834937837,"data":"\n"}
+,{"stream_name":"stderr","time":1147.854012324,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1147.854068675,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1148.025487818,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1148.025514095,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1148.645905626,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1148.975200067,"data":"[NbConvertApp] Writing 42049 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1151.555750898,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1152.522535932,"data":"[NbConvertApp] Writing 395504 bytes to __results__.html\n"}
+]

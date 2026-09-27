@@ -1,0 +1,60 @@
+{
+  "fold": 4,
+  "condition": "lora",
+  "n_train": 1024,
+  "n_val": 224,
+  "epoch_losses": [
+    0.6265807596510058,
+    0.5186107064419048
+  ],
+  "parse_failures": 0,
+  "wall_clock_s": 2632.9,
+  "config": {
+    "model": "Qwen/Qwen2-VL-7B-Instruct",
+    "rank": 8,
+    "lr": 0.0002,
+    "epochs": 2,
+    "effective_batch": 4,
+    "img_size": 224,
+    "seed": 0,
+    "quantisation": "nf4-4bit",
+    "trainable_params": 2523136,
+    "total_params": 4694399488
+  },
+  "qwk": -0.10283490828237918,
+  "kappa_linear": -0.10283490828237918,
+  "mcc": -0.10364145658263306,
+  "mae": 0.5535714285714286,
+  "accuracy": 0.44642857142857145,
+  "balanced_accuracy": 0.44817927170868344,
+  "f1_macro": 0.2976190476190476,
+  "precision_macro": 0.2987861811391223,
+  "recall_macro": 0.2987861811391223,
+  "per_class_f1": [
+    0.44642857142857145,
+    0.44642857142857145,
+    0.0
+  ],
+  "confusion_matrix": [
+    [
+      50,
+      69,
+      0
+    ],
+    [
+      55,
+      50,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "pred_dist": [
+    105,
+    119,
+    0
+  ]
+}

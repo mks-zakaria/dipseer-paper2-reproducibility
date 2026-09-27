@@ -1,0 +1,62 @@
+{
+  "config": {
+    "name": "base_r8_qv",
+    "mode": "generate",
+    "rank": 8,
+    "targets": [
+      "q_proj",
+      "v_proj"
+    ],
+    "epochs": 2,
+    "lr": 0.0002,
+    "accum": 4,
+    "balanced": false
+  },
+  "folds": [
+    0
+  ],
+  "mean_qwk": 0.30210656753407683,
+  "std_qwk": 0.0,
+  "mean_acc": 0.66796875,
+  "mean_f1": 0.4286031830710411,
+  "mean_mae": 0.3359375,
+  "per_fold": [
+    {
+      "qwk": 0.30210656753407683,
+      "accuracy": 0.66796875,
+      "balanced_accuracy": 0.4316077441077441,
+      "f1_macro": 0.4286031830710411,
+      "mae": 0.3359375,
+      "mcc": 0.3176915838318781,
+      "per_class_f1": [
+        0.7423312883435583,
+        0.5434782608695652,
+        0.0
+      ],
+      "confusion_matrix": [
+        [
+          121,
+          23,
+          0
+        ],
+        [
+          60,
+          50,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "pred_dist": [
+        182,
+        74,
+        0
+      ],
+      "fold": 0
+    }
+  ],
+  "wall_clock_s": 2581.8
+}

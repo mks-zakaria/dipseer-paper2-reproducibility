@@ -1,0 +1,16 @@
+{
+  "n_folds": 5,
+  "mean_qwk": 0.0,
+  "std_qwk": 0.0,
+  "per_fold_qwk": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "mean_mae": 0.5203125,
+  "mean_f1_macro": 0.21514036953702292,
+  "mean_accuracy": 0.484375,
+  "mean_balanced_accuracy": 0.39999999999999997
+}

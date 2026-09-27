@@ -1,0 +1,204 @@
+[{"stream_name":"stderr","time":5.465147858,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.465193063,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":6.187414514,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.187439017,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.187448565,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.187455484,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.730415581,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.730446564,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.730452429,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.730456732,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.132771236,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.9/40.9 MB 24.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.170061105,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 389.2/389.2 kB 17.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.335805475,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.9/40.9 MB 24.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.335831312,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 389.2/389.2 kB 17.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.293903164,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.5/35.5 MB 26.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.495714623,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.5/35.5 MB 26.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":20.902234566,"data":"GPU: Tesla T4 (cc 7.5)\n"}
+,{"stream_name":"stdout","time":40.035502395,"data":"Manifest cap=32: 1248 frames · 20 students · dist [603, 639, 6]\n"}
+,{"stream_name":"stdout","time":40.035537238,"data":"subject-disjointness verified\n"}
+,{"stream_name":"stdout","time":40.035543784,"data":"\n"}
+,{"stream_name":"stdout","time":40.035549061,"data":"=== screening base_r8_qv\n"}
+,{"stream_name":"stderr","time":57.443240975,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":57.443271102,"data":"\n"}
+,{"stream_name":"stderr","time":57.443275192,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":197.809131522,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":197.809203217,"data":"\n"}
+,{"stream_name":"stderr","time":197.809208478,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":203.72735649,"data":"`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...\n"}
+,{"stream_name":"stderr","time":203.727406287,"data":"\n"}
+,{"stream_name":"stderr","time":203.727413138,"data":"`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...\n"}
+,{"stream_name":"stdout","time":496.633928487,"data":"    base_r8_qv f0 ep1 250/992 loss=0.7659\n"}
+,{"stream_name":"stdout","time":790.917714849,"data":"    base_r8_qv f0 ep1 500/992 loss=0.6934\n"}
+,{"stream_name":"stdout","time":1086.402200388,"data":"    base_r8_qv f0 ep1 750/992 loss=0.5971\n"}
+,{"stream_name":"stdout","time":1372.145186688,"data":"   base_r8_qv fold0 epoch 1/2 loss=0.6669\n"}
+,{"stream_name":"stdout","time":1660.834381536,"data":"    base_r8_qv f0 ep2 250/992 loss=0.5901\n"}
+,{"stream_name":"stdout","time":1948.896603838,"data":"    base_r8_qv f0 ep2 500/992 loss=0.5610\n"}
+,{"stream_name":"stdout","time":2238.270963931,"data":"    base_r8_qv f0 ep2 750/992 loss=0.7327\n"}
+,{"stream_name":"stderr","time":2516.853025818,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":2516.85307815,"data":"\n"}
+,{"stream_name":"stderr","time":2516.853094588,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":2516.968898342,"data":"   base_r8_qv fold0 epoch 2/2 loss=0.5708\n"}
+,{"stream_name":"stdout","time":2638.683639763,"data":"  \u003e\u003e base_r8_qv fold 0: QWK=0.3021 acc=0.668 pred_dist=[182, 74, 0]\n"}
+,{"stream_name":"stdout","time":2639.088683613,"data":"== base_r8_qv: QWK 0.3021 acc 0.668 (43 min)\n"}
+,{"stream_name":"stdout","time":2639.088715083,"data":"\n"}
+,{"stream_name":"stdout","time":2639.088720921,"data":"=== screening gen_r32_qkvo\n"}
+,{"stream_name":"stdout","time":2989.646722712,"data":"    gen_r32_qkvo f0 ep1 250/992 loss=0.7554\n"}
+,{"stream_name":"stdout","time":3282.49120545,"data":"    gen_r32_qkvo f0 ep1 500/992 loss=0.7009\n"}
+,{"stream_name":"stdout","time":3575.797849163,"data":"    gen_r32_qkvo f0 ep1 750/992 loss=0.6630\n"}
+,{"stream_name":"stdout","time":3859.408230596,"data":"   gen_r32_qkvo fold0 epoch 1/2 loss=0.6834\n"}
+,{"stream_name":"stdout","time":4151.873304732,"data":"    gen_r32_qkvo f0 ep2 250/992 loss=0.5841\n"}
+,{"stream_name":"stdout","time":4444.886993234,"data":"    gen_r32_qkvo f0 ep2 500/992 loss=0.5085\n"}
+,{"stream_name":"stdout","time":4737.493153372,"data":"    gen_r32_qkvo f0 ep2 750/992 loss=0.6059\n"}
+,{"stream_name":"stdout","time":5020.702895365,"data":"   gen_r32_qkvo fold0 epoch 2/2 loss=0.5263\n"}
+,{"stream_name":"stdout","time":5309.697848589,"data":"  \u003e\u003e gen_r32_qkvo fold 0: QWK=0.0725 acc=0.582 pred_dist=[221, 35, 0]\n"}
+,{"stream_name":"stdout","time":5310.203620121,"data":"== gen_r32_qkvo: QWK 0.0725 acc 0.582 (45 min)\n"}
+,{"stream_name":"stdout","time":5310.203657419,"data":"\n"}
+,{"stream_name":"stdout","time":5310.203660789,"data":"=== screening coral_r16_qkvo\n"}
+,{"stream_name":"stdout","time":5366.463305718,"data":"   hidden size 3584\n"}
+,{"stream_name":"stdout","time":5649.727853038,"data":"    coral_r16_qkvo f0 ep1 250/992 loss=0.5747\n"}
+,{"stream_name":"stdout","time":5932.396232839,"data":"    coral_r16_qkvo f0 ep1 500/992 loss=0.6004\n"}
+,{"stream_name":"stdout","time":6215.517923737,"data":"    coral_r16_qkvo f0 ep1 750/992 loss=0.5517\n"}
+,{"stream_name":"stdout","time":6489.350195826,"data":"   coral_r16_qkvo fold0 epoch 1/3 loss=0.5755\n"}
+,{"stream_name":"stdout","time":6771.975741249,"data":"    coral_r16_qkvo f0 ep2 250/992 loss=0.5465\n"}
+,{"stream_name":"stdout","time":7054.631624356,"data":"    coral_r16_qkvo f0 ep2 500/992 loss=0.5429\n"}
+,{"stream_name":"stdout","time":7337.109337854,"data":"    coral_r16_qkvo f0 ep2 750/992 loss=0.5104\n"}
+,{"stream_name":"stdout","time":7610.709479932,"data":"   coral_r16_qkvo fold0 epoch 2/3 loss=0.5190\n"}
+,{"stream_name":"stdout","time":7893.375856157,"data":"    coral_r16_qkvo f0 ep3 250/992 loss=0.5127\n"}
+,{"stream_name":"stdout","time":8175.904978221,"data":"    coral_r16_qkvo f0 ep3 500/992 loss=0.4766\n"}
+,{"stream_name":"stdout","time":8458.963870936,"data":"    coral_r16_qkvo f0 ep3 750/992 loss=0.4890\n"}
+,{"stream_name":"stdout","time":8733.017049642,"data":"   coral_r16_qkvo fold0 epoch 3/3 loss=0.4829\n"}
+,{"stream_name":"stdout","time":8834.153043033,"data":"  \u003e\u003e coral_r16_qkvo fold 0: QWK=-0.0436 acc=0.547 pred_dist=[252, 2, 2]\n"}
+,{"stream_name":"stdout","time":8834.4452492,"data":"== coral_r16_qkvo: QWK -0.0436 acc 0.547 (59 min)\n"}
+,{"stream_name":"stdout","time":8834.445315657,"data":"\n"}
+,{"stream_name":"stdout","time":8834.445324994,"data":"=== screening coral_r32_qkvo\n"}
+,{"stream_name":"stdout","time":8845.673434649,"data":"   hidden size 3584\n"}
+,{"stream_name":"stdout","time":9135.195689119,"data":"    coral_r32_qkvo f0 ep1 250/992 loss=0.6900\n"}
+,{"stream_name":"stdout","time":9427.325215214,"data":"    coral_r32_qkvo f0 ep1 500/992 loss=0.5998\n"}
+,{"stream_name":"stdout","time":9718.418225652,"data":"    coral_r32_qkvo f0 ep1 750/992 loss=0.5454\n"}
+,{"stream_name":"stdout","time":10000.226210316,"data":"   coral_r32_qkvo fold0 epoch 1/3 loss=0.6044\n"}
+,{"stream_name":"stdout","time":10291.553432952,"data":"    coral_r32_qkvo f0 ep2 250/992 loss=0.5451\n"}
+,{"stream_name":"stdout","time":10582.774930788,"data":"    coral_r32_qkvo f0 ep2 500/992 loss=0.5501\n"}
+,{"stream_name":"stdout","time":10874.081185672,"data":"    coral_r32_qkvo f0 ep2 750/992 loss=0.5094\n"}
+,{"stream_name":"stdout","time":11155.547315748,"data":"   coral_r32_qkvo fold0 epoch 2/3 loss=0.5201\n"}
+,{"stream_name":"stdout","time":11446.786822866,"data":"    coral_r32_qkvo f0 ep3 250/992 loss=0.5049\n"}
+,{"stream_name":"stdout","time":11738.035818609,"data":"    coral_r32_qkvo f0 ep3 500/992 loss=0.4790\n"}
+,{"stream_name":"stdout","time":12029.03118549,"data":"    coral_r32_qkvo f0 ep3 750/992 loss=0.4949\n"}
+,{"stream_name":"stdout","time":12311.00518433,"data":"   coral_r32_qkvo fold0 epoch 3/3 loss=0.4872\n"}
+,{"stream_name":"stdout","time":12408.628448996,"data":"  \u003e\u003e coral_r32_qkvo fold 0: QWK=0.0000 acc=0.562 pred_dist=[256, 0, 0]\n"}
+,{"stream_name":"stdout","time":12408.996182004,"data":"== coral_r32_qkvo: QWK 0.0000 acc 0.562 (60 min)\n"}
+,{"stream_name":"stdout","time":12408.996217147,"data":"\n"}
+,{"stream_name":"stdout","time":12408.996221218,"data":"=== screening coral_r16_bal\n"}
+,{"stream_name":"stderr","time":12418.944582511,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":12418.944612061,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":12418.944619642,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":12418.945705714,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":12418.94579688,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":12418.945996813,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":12418.946762837,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":12418.946891296,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":12418.946898344,"data":"Exception encountered at \"In [5]\":\n"}
+,{"stream_name":"stderr","time":12418.946903744,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":12418.946908448,"data":"OutOfMemoryError                          Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":12418.946913002,"data":"/tmp/ipykernel_22/923661932.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":12418.946918694,"data":"     25         break\n"}
+,{"stream_name":"stderr","time":12418.946924197,"data":"     26     print(f\"\\n=== screening {cfg['name']}\")\n"}
+,{"stream_name":"stderr","time":12418.946928804,"data":"---\u003e 27     screen.append(run_config(cfg, manifest, folds, fold_ids=[0]))\n"}
+,{"stream_name":"stderr","time":12418.946933848,"data":"     28 \n"}
+,{"stream_name":"stderr","time":12418.946938318,"data":"     29 if screen:\n"}
+,{"stream_name":"stderr","time":12418.946943277,"data":"\n"}
+,{"stream_name":"stderr","time":12418.946948314,"data":"/tmp/ipykernel_22/3963587972.py in run_config(cfg, manifest, folds, fold_ids)\n"}
+,{"stream_name":"stderr","time":12418.94695357,"data":"     54         val = [manifest[i] for i in va_idx]\n"}
+,{"stream_name":"stderr","time":12418.946958532,"data":"     55 \n"}
+,{"stream_name":"stderr","time":12418.94696295,"data":"---\u003e 56         base, proc = load_base()\n"}
+,{"stream_name":"stderr","time":12418.946967379,"data":"     57         base = prepare_model_for_kbit_training(base, use_gradient_checkpointing=True)\n"}
+,{"stream_name":"stderr","time":12418.946972801,"data":"     58         base.gradient_checkpointing_enable()\n"}
+,{"stream_name":"stderr","time":12418.946984802,"data":"\n"}
+,{"stream_name":"stderr","time":12418.94698932,"data":"/tmp/ipykernel_22/3963587972.py in load_base()\n"}
+,{"stream_name":"stderr","time":12418.946994372,"data":"      4                            bnb_4bit_compute_dtype=torch.float16,\n"}
+,{"stream_name":"stderr","time":12418.946998957,"data":"      5                            bnb_4bit_use_double_quant=True)\n"}
+,{"stream_name":"stderr","time":12418.947003937,"data":"----\u003e 6     m = Qwen2VLForConditionalGeneration.from_pretrained(\n"}
+,{"stream_name":"stderr","time":12418.94700854,"data":"      7         MODEL_NAME, quantization_config=q, device_map=\"auto\", low_cpu_mem_usage=True)\n"}
+,{"stream_name":"stderr","time":12418.947013895,"data":"      8     p = AutoProcessor.from_pretrained(MODEL_NAME)\n"}
+,{"stream_name":"stderr","time":12418.94701826,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947025474,"data":"/usr/local/lib/python3.12/dist-packages/transformers/modeling_utils.py in from_pretrained(cls, pretrained_model_name_or_path, config, cache_dir, ignore_mismatched_sizes, force_download, local_files_only, token, revision, use_safetensors, weights_only, *model_args, **kwargs)\n"}
+,{"stream_name":"stderr","time":12418.947044384,"data":"   4107             download_kwargs=download_kwargs,\n"}
+,{"stream_name":"stderr","time":12418.947049973,"data":"   4108         )\n"}
+,{"stream_name":"stderr","time":12418.947054186,"data":"-\u003e 4109         load_info = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)\n"}
+,{"stream_name":"stderr","time":12418.947058085,"data":"   4110         load_info = cls._finalize_load_state_dict(model, load_config, load_info)\n"}
+,{"stream_name":"stderr","time":12418.947062519,"data":"   4111         model.eval()  # Set model in evaluation mode to deactivate Dropout modules by default\n"}
+,{"stream_name":"stderr","time":12418.947066882,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947072672,"data":"/usr/local/lib/python3.12/dist-packages/transformers/modeling_utils.py in _load_pretrained_model(cls, model, state_dict, checkpoint_files, load_config)\n"}
+,{"stream_name":"stderr","time":12418.947076889,"data":"   4229 \n"}
+,{"stream_name":"stderr","time":12418.947080276,"data":"   4230             missing_keys, unexpected_keys, mismatched_keys, disk_offload_index, conversion_errors = (\n"}
+,{"stream_name":"stderr","time":12418.947084351,"data":"-\u003e 4231                 convert_and_load_state_dict_in_model(\n"}
+,{"stream_name":"stderr","time":12418.947088365,"data":"   4232                     model=model,\n"}
+,{"stream_name":"stderr","time":12418.947092152,"data":"   4233                     state_dict=merged_state_dict,\n"}
+,{"stream_name":"stderr","time":12418.9470992,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947102521,"data":"/usr/local/lib/python3.12/dist-packages/transformers/core_model_loading.py in convert_and_load_state_dict_in_model(model, state_dict, load_config, tp_plan, dtype_plan, disk_offload_index)\n"}
+,{"stream_name":"stderr","time":12418.947106228,"data":"   1215                 pbar.refresh()\n"}
+,{"stream_name":"stderr","time":12418.947110687,"data":"   1216                 try:\n"}
+,{"stream_name":"stderr","time":12418.947114218,"data":"-\u003e 1217                     realized_value, conversion_errors = mapping.convert(\n"}
+,{"stream_name":"stderr","time":12418.947118431,"data":"   1218                         first_param_name,\n"}
+,{"stream_name":"stderr","time":12418.947122074,"data":"   1219                         model=model,\n"}
+,{"stream_name":"stderr","time":12418.947125982,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947130043,"data":"/usr/local/lib/python3.12/dist-packages/transformers/core_model_loading.py in convert(self, layer_name, model, config, hf_quantizer, missing_keys, conversion_errors)\n"}
+,{"stream_name":"stderr","time":12418.947134769,"data":"    694         # Collect the tensors here - we use a new dictionary to avoid keeping them in memory in the internal\n"}
+,{"stream_name":"stderr","time":12418.947139227,"data":"    695         # attribute during the whole process\n"}
+,{"stream_name":"stderr","time":12418.947143585,"data":"--\u003e 696         collected_tensors = self.materialize_tensors()\n"}
+,{"stream_name":"stderr","time":12418.947148031,"data":"    697 \n"}
+,{"stream_name":"stderr","time":12418.947152129,"data":"    698         # Perform renaming op (for a simple WeightRenaming, `self.source_patterns` and `self.target_patterns` can\n"}
+,{"stream_name":"stderr","time":12418.94715656,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947160404,"data":"/usr/local/lib/python3.12/dist-packages/transformers/core_model_loading.py in materialize_tensors(self)\n"}
+,{"stream_name":"stderr","time":12418.947165095,"data":"    669             # Async loading\n"}
+,{"stream_name":"stderr","time":12418.94717321,"data":"    670             if isinstance(tensors[0], Future):\n"}
+,{"stream_name":"stderr","time":12418.947177431,"data":"--\u003e 671                 tensors = [future.result() for future in tensors]\n"}
+,{"stream_name":"stderr","time":12418.947181718,"data":"    672             # Sync loading\n"}
+,{"stream_name":"stderr","time":12418.947185791,"data":"    673             elif callable(tensors[0]):\n"}
+,{"stream_name":"stderr","time":12418.947194294,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947198385,"data":"/usr/lib/python3.12/concurrent/futures/_base.py in result(self, timeout)\n"}
+,{"stream_name":"stderr","time":12418.947202538,"data":"    447                     raise CancelledError()\n"}
+,{"stream_name":"stderr","time":12418.947206448,"data":"    448                 elif self._state == FINISHED:\n"}
+,{"stream_name":"stderr","time":12418.947210353,"data":"--\u003e 449                     return self.__get_result()\n"}
+,{"stream_name":"stderr","time":12418.947214323,"data":"    450 \n"}
+,{"stream_name":"stderr","time":12418.9472183,"data":"    451                 self._condition.wait(timeout)\n"}
+,{"stream_name":"stderr","time":12418.94722231,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947226249,"data":"/usr/lib/python3.12/concurrent/futures/_base.py in __get_result(self)\n"}
+,{"stream_name":"stderr","time":12418.947229915,"data":"    399         if self._exception:\n"}
+,{"stream_name":"stderr","time":12418.947233481,"data":"    400             try:\n"}
+,{"stream_name":"stderr","time":12418.947239897,"data":"--\u003e 401                 raise self._exception\n"}
+,{"stream_name":"stderr","time":12418.947244252,"data":"    402             finally:\n"}
+,{"stream_name":"stderr","time":12418.947249115,"data":"    403                 # Break a reference cycle with the exception in self._exception\n"}
+,{"stream_name":"stderr","time":12418.947253497,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947257357,"data":"/usr/lib/python3.12/concurrent/futures/thread.py in run(self)\n"}
+,{"stream_name":"stderr","time":12418.947261483,"data":"     57 \n"}
+,{"stream_name":"stderr","time":12418.947265499,"data":"     58         try:\n"}
+,{"stream_name":"stderr","time":12418.947269454,"data":"---\u003e 59             result = self.fn(*self.args, **self.kwargs)\n"}
+,{"stream_name":"stderr","time":12418.947273555,"data":"     60         except BaseException as exc:\n"}
+,{"stream_name":"stderr","time":12418.947297783,"data":"     61             self.future.set_exception(exc)\n"}
+,{"stream_name":"stderr","time":12418.947306257,"data":"\n"}
+,{"stream_name":"stderr","time":12418.94730985,"data":"/usr/local/lib/python3.12/dist-packages/transformers/core_model_loading.py in _job()\n"}
+,{"stream_name":"stderr","time":12418.947313567,"data":"    816 \n"}
+,{"stream_name":"stderr","time":12418.94731702,"data":"    817     def _job():\n"}
+,{"stream_name":"stderr","time":12418.947320639,"data":"--\u003e 818         return _materialize_copy(tensor, device, dtype)\n"}
+,{"stream_name":"stderr","time":12418.947324358,"data":"    819 \n"}
+,{"stream_name":"stderr","time":12418.947327912,"data":"    820     if thread_pool is not None:\n"}
+,{"stream_name":"stderr","time":12418.947332189,"data":"\n"}
+,{"stream_name":"stderr","time":12418.94733617,"data":"/usr/local/lib/python3.12/dist-packages/transformers/core_model_loading.py in _materialize_copy(tensor, device, dtype)\n"}
+,{"stream_name":"stderr","time":12418.947340693,"data":"    805     tensor = tensor[...]\n"}
+,{"stream_name":"stderr","time":12418.947344444,"data":"    806     if dtype is not None or device is not None:\n"}
+,{"stream_name":"stderr","time":12418.947352883,"data":"--\u003e 807         tensor = tensor.to(device=device, dtype=dtype)\n"}
+,{"stream_name":"stderr","time":12418.94735699,"data":"    808     return tensor\n"}
+,{"stream_name":"stderr","time":12418.94736063,"data":"    809 \n"}
+,{"stream_name":"stderr","time":12418.947364312,"data":"\n"}
+,{"stream_name":"stderr","time":12418.947370391,"data":"OutOfMemoryError: CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 22.81 MiB is free. Including non-PyTorch memory, this process has 14.54 GiB memory in use. Of the allocated memory 13.96 GiB is allocated by PyTorch, and 451.39 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)\n"}
+,{"stream_name":"stderr","time":12418.94737975,"data":"\n"}
+,{"stream_name":"stderr","time":12421.53215289,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":12421.532186983,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":12421.767120825,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":12421.767163006,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":12422.774522227,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":12423.135650725,"data":"[NbConvertApp] Writing 334334 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":12425.432060686,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12426.542550112,"data":"[NbConvertApp] Writing 635344 bytes to __results__.html\n"}
+]
